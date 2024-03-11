@@ -1,8 +1,8 @@
-# Project Name
+# BoomBikes Bike sharing demand
 > BoomBikes aspires to understand the demand for shared bikes among the people on the basis of 2 years data provided by company.they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
 
-Which variables are significant in predicting the demand for shared bikes.
-How well those variables describe the bike demands
+	-Which variables are significant in predicting the demand for shared bikes.
+	-How well those variables describe the bike demands
 
 
 ## Table of Contents
@@ -42,10 +42,13 @@ How well those variables describe the bike demands
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- There are few variables in the dataset which are showing promising variability for the demand
+- The categorical variables are also contributing to the variability of demand and thus has to be converted in derived columns.
+- there are approx 10 variable that are contributing to the model. Temp, hum, yr, windspeed has high significance while few months and seasons are also playing a crucial role in fetching the demand. 
+- The model built has R-Squared and adjusted R-squared value around 0.83.
+- The VIF of all the variables after under nominal range.
+- The error terms after model building are normally distributed.
+- The R2 score of predicted data is around 0.8
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
